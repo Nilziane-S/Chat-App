@@ -14,7 +14,7 @@
     rgba(145, 59, 254, 1) 0%,
     rgba(220, 67, 254, 1) 100%
   );
-  --violet-extra-light: #d5ced9;
+  --violet-extra-light: #f5f3f7;
   --violet-rose: hsl(276, 55%, 52%);
   --violet-dark: hsl(271, 36%, 24%);
   --profile-color: #ffefff;
@@ -23,7 +23,7 @@
   --grey-shadow: #c3bec3;
   --grey-light: hsl(270, 7%, 64%);
   --white-opaque: #f5f3f8;
-  --background-chat1: #d2c9d6;
+  --background-chat1: #eee6f4;
   --background-chat: hsl(270, 20%, 96%);
   --pure-white: #fff;
 }
@@ -58,7 +58,7 @@ body {
   align-items: center;
   justify-content: right;
   padding: 40px 150px 40px 100px;
-  background-color: var(--background-chat);
+  background-color: var(--pure-white);
   position: relative;
 }
 .chat_section {
@@ -107,7 +107,6 @@ body {
   width: 290px;
   height: 570px;
   position: relative;
-  background-color: rgb(110, 110, 190);
 }
 
 .body-chat::before {
@@ -167,7 +166,7 @@ h2 {
 .chat1-p1,
 .chat1-p2,
 .chat-1-p3 {
-  box-shadow: 0px 2px 5px 0px var(--grey-shadow);
+  box-shadow: 0px 1px 10px 0px var(--grey-shadow);
   padding: 6px 10px;
   color: var(--violet-rose);
   background-color: var(--background-chat1);
@@ -223,7 +222,7 @@ h2 {
   background-color: var(--white-opaque);
   padding: 6px 10px;
   align-self: flex-end;
-  box-shadow: 0px 3px 10px 0px var(--grey-shadow);
+  box-shadow: 0px 1px 8px 0px var(--grey-shadow);
 }
 .btn-walk {
   display: flex;
