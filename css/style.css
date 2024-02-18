@@ -444,8 +444,9 @@ h1 {
     padding: 10px;
   }
   .chat_section::after {
-    width: 170px;
+    width: 200px;
     height: 500px;
+    top: 520px;
   }
 }
 @media (max-width: 400px) {
@@ -454,23 +455,21 @@ h1 {
     padding-top: 10px;
   }
   .chat_section::after {
-    width: 150px;
-    height: 500px;
+    width: 160px;
+    height: 400px;
+    top: 520px;
   }
 
   .chat-container {
     margin: 0px;
     margin: 0 auto;
     width: 260px;
-    height: 560px;
+    height: 555px;
   }
 
-  .gap-chat {
-    gap: 20px;
-  }
   .body-chat {
     width: 260px;
-    height: 560px;
+    height: 555px;
   }
   .body-chat::before {
     width: 150px;
@@ -506,7 +505,6 @@ h1 {
 
   .label2 {
     padding-right: 100px;
-    margin-bottom: 10px;
   }
 
   .simple-container {
